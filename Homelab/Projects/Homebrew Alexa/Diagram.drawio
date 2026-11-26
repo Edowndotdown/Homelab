@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="9dUccXBzm1-O4uTrHHTl">
+    <mxGraphModel dx="2139" dy="2001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oP4IXI6alpBYIoa_482N-9" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oP4IXI6alpBYIoa_482N-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-2" parent="1" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#000000;labelPerimeter=1;fillColor=#f5f5f5;fontColor=#333333;" value="Phone with Home Assistant" vertex="1">
+          <mxGeometry height="170" width="90" x="335" y="-57" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-10" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oP4IXI6alpBYIoa_482N-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-3" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.echo;fillColor=#205B99;gradientColor=none;labelPerimeter=1;" value="Jailbroken Echo Dot" vertex="1">
+          <mxGeometry height="93" width="40.5" x="170" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-7" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-4" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png;labelPerimeter=1;" value="Proxmox" vertex="1">
+          <mxGeometry height="150" width="170" x="520" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-15" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oP4IXI6alpBYIoa_482N-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-16" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oP4IXI6alpBYIoa_482N-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-17" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oP4IXI6alpBYIoa_482N-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-20" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="271.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-6" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/developer/1/Docker_Tools.svg;labelPerimeter=1;" value="Home Assistant" vertex="1">
+          <mxGeometry height="83" width="99" x="280" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-11" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png;labelPerimeter=1;" value="GPU Server" vertex="1">
+          <mxGeometry height="150" width="200" x="520" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-36" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oP4IXI6alpBYIoa_482N-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-12" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/developer/1/Docker_Tools.svg;labelPerimeter=1;" value="Piper" vertex="1">
+          <mxGeometry height="83" width="99" x="383" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-38" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oP4IXI6alpBYIoa_482N-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-13" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/developer/1/Docker_Tools.svg;labelPerimeter=1;" value="Whisper" vertex="1">
+          <mxGeometry height="83" width="99" x="108.75" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-33" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oP4IXI6alpBYIoa_482N-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-14" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/developer/1/Docker_Tools.svg;labelPerimeter=1;" value="Ollama" vertex="1">
+          <mxGeometry height="83" width="99" x="246" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-21" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oP4IXI6alpBYIoa_482N-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-27" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oP4IXI6alpBYIoa_482N-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-18" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/developer/1/Docker_Tools.svg;labelPerimeter=1;" value="Music Assistant" vertex="1">
+          <mxGeometry height="83" width="99" x="-60" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-19" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/developer/1/Docker_Tools.svg;labelPerimeter=1;" value="Jellyfin Music" vertex="1">
+          <mxGeometry height="83" width="99" x="-60" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-28" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oP4IXI6alpBYIoa_482N-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-31" edge="1" parent="1" source="oP4IXI6alpBYIoa_482N-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oP4IXI6alpBYIoa_482N-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-24" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/developer/1/Docker_Tools.svg;labelPerimeter=1;" value="IoT Connections" vertex="1">
+          <mxGeometry height="83" width="99" x="-250" y="233" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-25" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.tv;labelPerimeter=1;" value="&lt;div&gt;Power ON/OFF TV&lt;/div&gt;&lt;div&gt;Play Pause ANY music from Jellyfin&lt;/div&gt;&lt;div&gt;Change Volume&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Works with Homekit/Matter compatible devices&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="59" x="-230" y="469" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-30" parent="1" style="image;html=1;image=img/lib/clip_art/general/Plug_128x128.png;labelPerimeter=1;" value="Smart Plugs can be turned ON/OFF from agent" vertex="1">
+          <mxGeometry height="80" width="80" x="-465" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-32" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" value="&lt;div&gt;Timers&lt;/div&gt;&lt;div&gt;Reminders&lt;/div&gt;&lt;div&gt;Chain IoT actions like unmute TV then turn on X music on all TVs on the network&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105.5" width="120" x="235.5" y="624.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-35" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" value="&lt;div&gt;Text to Speach to send to Echo Dot&lt;/div&gt;&lt;div&gt;(Phone can use the gui text app)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="372.5" y="624.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oP4IXI6alpBYIoa_482N-37" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" value="Translate echo dot user voice to text" vertex="1">
+          <mxGeometry height="60" width="120" x="98.25" y="624.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
