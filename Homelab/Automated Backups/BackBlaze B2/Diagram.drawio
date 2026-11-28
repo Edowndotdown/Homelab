@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="WUWdmwg6Vm-6C-3rLDlU">
+    <mxGraphModel dx="2899" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XJOov7qlmj14NNFyUDbn-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="460" width="420" x="460" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="XJOov7qlmj14NNFyUDbn-2" parent="1" style="fillColorStyles=neutralFill;neutralFill=#9DA6A8;shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.server;network2IconW=1.0001;network2IconH=0.5812;labelPerimeter=1;" value="Primary Server&#xa;" vertex="1">
+          <mxGeometry height="98.8" width="170.01" x="221" y="500.3" as="geometry" />
+        </mxCell>
+        <mxCell id="XJOov7qlmj14NNFyUDbn-3" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.cloud;network2IconYOffset=-0.08;network2IconW=1.0004;network2IconH=0.7222;labelPerimeter=1;" value="&#xa;BackBlaze B2 Bucket + Versioning" vertex="1">
+          <mxGeometry height="79.42" width="110.02" x="727" y="506" as="geometry" />
+        </mxCell>
+        <mxCell id="XJOov7qlmj14NNFyUDbn-4" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.encryption;network2IconXOffset=0.0006;network2IconYOffset=0.0881;network2IconW=1.0001;network2IconH=0.7019;labelPerimeter=1;" value="Encrypt on transit" vertex="1">
+          <mxGeometry height="79.42" width="113.16" x="517" y="520.38" as="geometry" />
+        </mxCell>
+        <mxCell id="XJOov7qlmj14NNFyUDbn-5" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.external_storage;network2IconYOffset=-0.0267;network2IconW=1;network2IconH=0.7987;labelPerimeter=1;" value="SMB File Share to users" vertex="1">
+          <mxGeometry height="103.83" width="130" x="-30" y="497.79" as="geometry" />
+        </mxCell>
+        <mxCell id="XJOov7qlmj14NNFyUDbn-6" edge="1" parent="1" source="XJOov7qlmj14NNFyUDbn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="550.0951999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJOov7qlmj14NNFyUDbn-8" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.clock;labelPerimeter=1;" value="Timed Upload to cloud every day" vertex="1">
+          <mxGeometry height="115" width="155" x="598.5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="XJOov7qlmj14NNFyUDbn-9" edge="1" parent="1" source="XJOov7qlmj14NNFyUDbn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.379;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="XJOov7qlmj14NNFyUDbn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XJOov7qlmj14NNFyUDbn-11" edge="1" parent="1" source="XJOov7qlmj14NNFyUDbn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.687;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="XJOov7qlmj14NNFyUDbn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
